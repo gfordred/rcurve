@@ -616,11 +616,7 @@ def main():
                 colorscale='Viridis',
                 opacity=0.9,  # Slightly increased opacity
                 showscale=True,
-                colorbar=dict(
-                    title='Yield (%)',
-                    titlefont=dict(size=14),
-                    tickfont=dict(size=12)
-                ),
+                colorbar=dict(title='Yield (%)'),  # Simplified colorbar to avoid compatibility issues
                 lighting=dict(
                     ambient=0.6,  # Increase ambient light for better visibility
                     diffuse=0.8,
